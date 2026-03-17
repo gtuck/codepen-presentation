@@ -1,24 +1,40 @@
 ---
 theme: apple-basic
+# background: https://cover.sli.dev
+
+# force color schema for the slides, can be 'auto', 'light', or 'dark'
+colorSchema: light
+
+# favicon, can be a local file path or URL
+favicon: "https://garthtuck.com/images/favicon.ico"
+
 title: Using CodePen in Intro to JavaScript
+class: text-center
+layout: center
+
+# author field for exported PDF or PPTX
 author: Garth Tuck
+
+# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
+
 download: true
 exportFilename: CodePen-JS-Presentation
 ---
 
 <style>
 h1 {
-  background: linear-gradient(45deg, #4f46e5, #9333ea);
+  background-color: #492365;
+  background-image: linear-gradient(45deg, #814d9d 10%, #a275b3 20%);
+  background-size: 100%;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.qr {
-  width: 180px;
+  -moz-text-fill-color: transparent;
 }
 </style>
 
-# Using CodePen in Intro to JavaScript
+# Using CodePen.io to Introduce JavaScript
 
 ### Fast Feedback. Zero Setup. Maximum Engagement.
 
@@ -36,7 +52,7 @@ Intro students struggle with:
 - Slow feedback loops  
 - Fear of breaking things  
 
-> Cognitive overload happens *before* learning JavaScript
+> Cognitive overload *before* JavaScript learning begins
 
 ---
 
@@ -45,50 +61,24 @@ Intro students struggle with:
 - ✅ No install
 - ✅ Instant feedback
 - ✅ Visual learning
+- ✅ Console is exposed
 - ✅ Share via URL
 
 > Students focus on *learning*, not tooling
 
 ---
 
-# Teaching Philosophy
+# Typical flow
 
-> Remove friction → Increase experimentation → Build confidence
+- Open Playground Pen  
+- Lecture with examples  
+- Students follow along (in their own pen)  
 
-- Start with **play**
-- Encourage **trial & error**
-- Show **immediate results**
-
----
-
-# Demo (Pre-Built Pen)
-
-```js
-document.querySelector("button").addEventListener("click", () => {
-  document.body.style.backgroundColor = "lightblue";
-});
-```
+> Students submit *thier* pen URL
 
 ---
 
-# Lesson Structure
-
-**50-minute class:**
-
-- 5 min → Show working example  
-- 10 min → Explain concept  
-- 20 min → Student modification  
-- 10 min → Challenge  
-- 5 min → Share  
-
----
-
-# Classroom Workflow
-
-1. Create starter Pen  
-2. Share link  
-3. Students fork  
-4. Students experiment  
+# https://codepen.io
 
 ---
 
@@ -103,8 +93,6 @@ document.querySelector("button").onclick = function() {
   document.body.style.backgroundColor = "yellow";
 };
 ```
-
-Scan: https://codepen.io/pen?template=dygNwQX
 
 ---
 
@@ -123,30 +111,20 @@ document.getElementById("btn").onclick = () => {
 };
 ```
 
-Scan: https://codepen.io/pen?template=abdygZX
-
 ---
 
 # Activity 3 — Change Text
 
 ```html
 <h1 id="title">Hello</h1>
-<button>Change</button>
+<button>Button</button>
 ```
 
 ```js
 document.querySelector("button").onclick = () => {
-  document.getElementById("title").textContent = "You clicked!";
+  document.getElementById("title").textContent = "Button was clicked!";
 };
 ```
-
-Scan: https://codepen.io/pen?template=GRyXbqV
-
----
-
-# Final Thought
-
-> “If students can see it change, they believe they can learn it.”
 
 ---
 
