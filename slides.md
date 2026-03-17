@@ -78,16 +78,20 @@ Intro students struggle with:
 
 ---
 
-# https://codepen.io
+# Let's see it in action
+
+## https://codepen.io
 
 ---
 
 # Activity 1 — Click to Change Color
 
+### HTML
 ```html
 <button>Click Me</button>
 ```
 
+### JavaScript
 ```js
 document.querySelector("button").onclick = function() {
   document.body.style.backgroundColor = "yellow";
@@ -98,11 +102,13 @@ document.querySelector("button").onclick = function() {
 
 # Activity 2 — Counter App
 
+### HTML
 ```html
 <button id="btn">Click</button>
 <p id="count">0</p>
 ```
 
+### JavaScript
 ```js
 let count = 0;
 document.getElementById("btn").onclick = () => {
@@ -115,11 +121,13 @@ document.getElementById("btn").onclick = () => {
 
 # Activity 3 — Change Text
 
+### HTML
 ```html
 <h1 id="title">Hello</h1>
 <button>Button</button>
 ```
 
+### JavaScript
 ```js
 document.querySelector("button").onclick = () => {
   document.getElementById("title").textContent = "Button was clicked!";
