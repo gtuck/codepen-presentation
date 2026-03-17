@@ -74,7 +74,7 @@ Intro students struggle with:
 - Lecture with examples  
 - Students follow along (in their own pen)  
 
-> Students submit *thier* pen URL
+> Students submit *their* pen URL
 
 ---
 
