@@ -165,11 +165,9 @@ exportFilename: CodePen-JS-Presentation
 }
 </style>
 
-<div class="kicker">JavaScript Foundations</div>
-
 # Using CodePen.io to Introduce JavaScript
 
-<p class="subtitle">Fast feedback. Zero setup. Maximum engagement.</p>
+### Fast feedback. Zero setup. Maximum engagement.  
 
 <p class="presenter">
   Garth Tuck<br>
@@ -226,7 +224,7 @@ layout: two-cols-header
 
 # My Typical Flow
 
-- Open a shared playground pen.
+- Open my playground pen.
 - Model the concept live during lecture.
 - Students follow along in their own pen.
 - Students submit their pen URL.
